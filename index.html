@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTribe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: rgb(51, 51, 51);
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            /* background-color: rgba(0, 0, 0, 0.7); */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            height: fit-content;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>LearnTribe</h1>
+    </header>
+
+    <nav>
+        <a href="#" id="homeLink">Home</a>
+        <a href="https://lryenp2t49y.typeform.com/to/MJDVSKzo" id="registerLink">Register</a>
+        <a href="courses.html" id="coursesLink">Courses</a>
+    </nav>
+
+    <section>
+        <!-- Content of your webpage goes here -->
+        <div class="image-container">
+            <img src="home.png" width="100%" height="auto" alt="image not found">
+            <div class="overlay-text">WELCOME TO OUR TRIBE!</div>
+        </div>
+
+    </section>
+
+    <footer>
+        &copy; 2024 Course Website. All rights reserved.
+    </footer>
+
+    <!-- <script>
+        // You can add JavaScript functionality here, for example, changing the content dynamically when links are clicked.
+        document.getElementById("homeLink").addEventListener("click", function() {
+            document.querySelector("section").innerHTML = "<p>Welcome to our course website! Explore our courses and register to enhance your skills.</p>";
+        });
+
+        document.getElementById("registerLink").addEventListener("click", function() {
+            document.querySelector("section").innerHTML = "<p>Register now to access exclusive courses and advance your knowledge!</p>";
+        });
+
+        document.getElementById("coursesLink").addEventListener("click", function() {
+            document.querySelector("section").innerHTML = "<p>Discover our wide range of courses tailored to meet your learning needs.</p>";
+        });
+    </script> -->
+
+</body>
+</html>
